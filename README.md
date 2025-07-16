@@ -1,70 +1,18 @@
-# Getting Started with Create React App
+# WEATHER APPLICATION
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+*COMPANY* :CODTECH IT SOLUTIONS
 
-## Available Scripts
+*NAME* : ASWATHI KRISHNA B
 
-In the project directory, you can run:
+*INTERN ID* : CT04DH42
 
-### `npm start`
+*DOMAIN* : MERN STACK WEB DEVELOPMENT
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+*DURATION* : 4 WEEKS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+*MENTOR* : NEELA SANTOSH
 
-### `npm test`
+Developing a weather application using the WeatherAPI is an excellent project for understanding how to consume third-party APIs, handle asynchronous operations, and design a user-friendly interface for displaying dynamic data. The task involves building a user interface where users can enter the name of a city to retrieve and display current weather information such as temperature, humidity, weather condition descriptions, wind speed, and weather icons that visually represent the current condition. The core of this project revolves around integrating the WeatherAPI service, which provides a RESTful API endpoint capable of delivering weather data in JSON format. The specific API endpoint used is https://api.weatherapi.com/v1/current.json?key=api_key&q=${city}, where developers replace ${city} with the user’s input and api_key with a valid key obtained by registering an account at WeatherAPI.com. To implement the weather app, developers typically choose React.js for the frontend due to its ability to create dynamic, component-driven applications that respond quickly to state changes. The user interface starts with an input field where users type the city name and a button that triggers the API call. When the button is clicked, the application uses either the Fetch API or Axios, a popular HTTP client library, to send a GET request to the WeatherAPI endpoint. Once the response is received, the JSON data is parsed and stored in the application’s state using React’s useState hooks. The React components are then updated to display the new weather information. Developers can enhance the interface by incorporating icons retrieved from the API response, showing visually appealing symbols for conditions like rain, snow, clear skies, and more. Tools like Bootstrap or Material-UI are often used to style the interface and ensure the app looks clean and professional across different devices. One important aspect of the implementation is error handling. Developers must account for situations where the user enters an invalid city name or the API returns an error due to exceeded rate limits or connectivity issues. Displaying appropriate error messages ensures a better user experience and helps users understand what went wrong. The application can be developed and tested locally using Create React App, a tool that simplifies setting up a React environment. Once development is complete, the app can be deployed to cloud platforms like Netlify, Vercel, or AWS Amplify, which offer easy integration pipelines for hosting frontend applications. In terms of practical usage, weather applications are widely used in daily life by individuals planning outdoor activities, travelers checking conditions at destinations, farmers monitoring weather for agriculture, and logistics companies managing delivery schedules. They’re also integrated into larger systems such as smart home devices or wearable technology. Implementing this task teaches developers how to securely store API keys using environment variables, how to handle asynchronous JavaScript operations with promises or async/await, and how to structure a frontend application to manage dynamic data efficiently. Developers also gain experience in transforming API response data into user-friendly formats, optimizing performance for faster load times, and designing responsive UIs that adapt to different screen sizes. Overall, building a weather application using the WeatherAPI provides valuable experience in modern web development practices and results in a practical tool that many users find genuinely useful in their daily lives.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# OUTPUT:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
