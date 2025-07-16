@@ -16,3 +16,4 @@ Developing a weather application using the WeatherAPI is an excellent project fo
 
 # OUTPUT:
 
+<img width="1916" height="1015" alt="Image" src="https://github.com/user-attachments/assets/411f3703-3cf4-4fe0-b8f1-6f858187ba81" />
